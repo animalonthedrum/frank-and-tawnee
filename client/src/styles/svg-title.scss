@@ -1,0 +1,197 @@
+$stroke:linear-gradient(to right, #0f2027, #203a43, #2c5364);
+.svgTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    // transform: scale(0.7);
+    animation: shrink 1s 4s linear forwards;
+
+    @keyframes shrink {
+        100% {
+            transform:scale(0.8);
+            width: 20%;
+            
+        }
+    }
+    
+    .frontend {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    transform: rotate(-4deg);
+    
+    .st0{fill:none;}
+    .st1{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+    path {
+      stroke:#fff;
+      fill:rgba(255, 255, 255, 1);
+      stroke-dasharray: 880;
+      stroke-dashoffset: 880;
+      // opacity: 1;
+      animation: animate 2s linear forwards;
+    //   , fill-it .5s 3s forwards;
+    }
+    }
+    @keyframes animate {
+    100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    
+    @keyframes fill-it {
+      100% {
+        fill: $tan;
+      }
+      80% {
+        fill: rgba(219,198,165, 0.8);
+      }
+    
+      60% {
+        fill: rgba(219,198,165, 0.6);
+      }
+      40% {
+        fill:rgba(219,198,165, 0.4);
+      }
+      20% {
+        fill: rgba(219,198,165, 0.2);
+      }
+    }
+
+.developer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    transform: rotate(-4deg);
+    
+    .st0{fill:none;}
+    .st1{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+    path {
+      stroke:#fff;
+      fill:rgba(255, 255, 255, 1);
+      stroke-dasharray: 788;
+      stroke-dashoffset: 788;
+      animation: animate 2s 1s linear forwards;
+    //   , fill-it .7s 3s forwards;
+    }
+    }
+    @keyframes animate {
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes fill-it {
+        100% {
+          fill: $tan;
+        }
+        80% {
+          fill: rgba(219,198,165, 0.8);
+        }
+      
+        60% {
+          fill: rgba(219,198,165, 0.6);
+        }
+        40% {
+          fill:rgba(219,198,165, 0.4);
+        }
+        20% {
+          fill: rgba(219,198,165, 0.2);
+        }
+      }
+
+}
+
+.toolbar__logo {
+    height: 20%;
+    width: 20%;
+    .st0{fill:none;}
+    .st1{fill:none;}
+    .st2{fill:none;stroke:#ffffff;stroke-width:5;stroke-miterlimit:10;}
+    path {
+      stroke:#ffffff;
+      fill:rgba(255, 255, 255, 1);
+      stroke-dasharray: 1276;
+      stroke-dashoffset: 1276;
+      // opacity: 1;
+      animation: animate 2s linear forwards, fill-it 1.5s 1s forwards;
+   
+    }
+    @keyframes animate {
+    100% {
+        stroke-dashoffset: 0;
+      }
+    
+    }
+
+    @keyframes fill-it {
+        100% {
+          fill: #fff;
+        }
+        80% {
+          fill: rgba(255,255,255, 0.8);
+        }
+      
+        60% {
+          fill: rgba(255,255,255, 0.6);
+        }
+        40% {
+          fill:rgba(255,255,255, 0.4);
+        }
+        20% {
+          fill: rgba(255,255,255, 0.2);
+        }
+      }
+
+}
+
+.side-drawer.open svg {
+  height: 140vh;
+  width:100vw;
+  z-index: -1;
+  position: absolute;
+  opacity: .5;
+
+  .st0{fill:none;}
+  .st1{fill:none;}
+  .st2{fill:none;stroke:url(#MyGradient);stroke-width:20;stroke-miterlimit:10;}
+  path {
+    // stroke:#ffffff;
+    // fill:rgba(255, 255, 255, 1);
+    stroke-dasharray: 2800;
+    stroke-dashoffset: 2800;
+    // opacity: 1;
+    animation: animate 1.5s linear forwards, see-it 1.5s forwards;
+    opacity: 0.8;
+  }
+  @keyframes animate {
+  100% {
+      stroke-dashoffset: 0;
+    }
+  
+  }
+
+  @keyframes see-it {
+      100% {
+      opacity: 0.8;
+      }
+      80% {
+        opacity: 0.6;
+      }
+    
+      60% {
+        opacity: 0.4;
+      }
+      40% {
+      opacity: 0.2;
+      }
+      20% {
+        opacity: 0;
+      }
+    }
+    
+
+}

@@ -1,0 +1,72 @@
+.euc-prx {
+    position: absolute;
+    right: 0;
+    @media only screen and (max-width:414px) {
+        display: none;
+    }
+}
+.euc-left-prx {
+    position: absolute;
+    left: 0;
+    align-self: flex-start;
+    @media only screen and (max-width:414px) {
+        display: none;
+    }
+    
+}
+
+.euc-os-prx {
+    z-index: -1;
+    @media only screen and (max-width:414px) {
+        display: none;
+    }
+}
+
+.euc-r2-prx {
+    position: absolute;
+    right: 0;
+    @media only screen and (max-width:414px) {
+        display: none;
+    }
+    img {
+        max-height: 200px;
+    }
+}
+
+.baby-frank-prx {
+    position: absolute;
+    z-index: 4;
+}
+
+.baby-tawnee-prx {
+    display: flex;
+    justify-content: flex-end;
+    z-index: -1;
+    position: absolut;
+}
+.bridal-prx {
+    position: absolute;
+    @media only screen and (max-width:414px) {
+        display: none;
+    }
+}
+.att-prx {
+    width: 100%;
+    @media only screen and (max-width:414px) {
+        display: none;
+    }
+}
+.euc-left-bottom{
+    position: absolute;
+    right: 0;
+    // overflow-x: hidden;
+    .euc-bottom {
+        // width: 65%;
+        // height: 50%;
+        // transform: translateX(65%);
+
+    }
+    @media only screen and (max-width:768px) {
+        display: none;
+    }
+}

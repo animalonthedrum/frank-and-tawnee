@@ -1,0 +1,81 @@
+.os-container {
+    display: flex;
+    justify-content: center;
+    background-image: url('images/ourStory-bg.png');
+    background-position: center left;
+    // background-size: contain;
+    background-size: initial;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    padding: 0 0 0 60px;
+    @media only screen and (max-width:414px){
+       flex-direction: column;
+       padding: 0 0;
+    }
+  
+    .os-left {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        // .babyFrank {
+        //     position: absolute;
+        //     z-index: 4;
+        //     // top: 4%;
+        // }
+        // .babyTawn {
+        //     position: absolute;
+        //     // left: 50%;
+        //     left: 43%;
+        //     bottom: 5%;
+        //     z-index: 3;
+        // }
+        @media only screen and (max-width:414px) {
+            display: none;
+        }
+    }
+    .os-right {
+        background-color: rgba(238,238,238,0.9);
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        // justify-content:space-around;
+        align-items: center;
+        padding: 80px 60px 40px 80px;
+        @media only screen and (max-width:414px){
+            padding: 0;
+            background-color: white;
+        }
+        h2 {
+            font-size: 73px;
+            font-family: $fontTwo;
+            font-weight: 700;
+        }
+        .textBlock {
+            padding:20px 40px;
+            p {
+                font-size: 24px;
+                font-weight: 400;
+                margin-bottom: 36px;
+            }
+        }
+    }
+}
+
+.ourStoryTitle {
+    position: relative;
+    z-index: 100;
+    &:before {
+        // background-image: url('./images/eucOurStory.png');
+        content:'';
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 10%;
+        width: 10%;
+        position: absolute;
+        z-index: -1;
+        top: -4%;
+    }
+}

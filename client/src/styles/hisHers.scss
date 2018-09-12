@@ -1,0 +1,128 @@
+.hh-container {
+    padding: 0 50px;
+    h2 {
+        font-family: $fontTwo;
+        font-size: 72px;
+        font-weight: bold;
+        padding-bottom: 80px;
+    }
+}
+.bridalParty {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: 0 auto;
+    @media only screen and (max-width:414px){
+        flex-direction: column;
+        align-items: center;
+    }
+    .groom, .bride{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: center;
+        h3 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: $fontTwo;
+            font-size: 32px;
+            font-style: italic;
+            font-weight: 400;
+            padding-bottom: 45px;
+        }
+        .photos {
+            flex-basis: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-evenly;
+            .grid {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    outline:1px solid $burg;
+                    outline-offset: -15px;
+                    box-shadow: 5px -5px 3px rgba(178, 150, 47, 0.1);
+
+                }
+                h4 {
+                    font-size: 16px;
+                    font-family: $fontOne;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                    
+                }
+                p{
+                    font-family: $fontTwo;
+                    font-size: 16px;
+                    border-bottom: 1px solid $burg;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+
+}
+.hh-bottom {
+
+    .attendants{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        h3 {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: $fontTwo;
+            font-size: 32px;
+            font-style: italic;
+            font-weight: 400;
+            padding-bottom: 45px;
+        }
+        .a-photos {
+            display: flex;
+            flex-wrap: wrap;
+            width: 55vw;
+            justify-content: center;
+            .grid {
+                padding:0 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    outline:1px solid $burg;
+                    outline-offset: -15px;
+                    box-shadow: 5px -5px 3px rgba(178, 150, 47, 0.1);
+
+                }
+                h4 {
+                    font-size: 16px;
+                    font-family: $fontOne;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                }
+                p{
+                    font-family: $fontTwo;
+                    font-size: 16px;
+                    border-bottom: 1px solid $burg;
+                    margin-bottom: 40px;
+                }
+            }
+          
+        }
+        .hidden {
+            @media only screen and (min-width:768px) {
+                display: none;
+            }
+           
+        }
+    }
+}

@@ -1,0 +1,131 @@
+    .scroll-down-animation {
+        margin-top: 50px;
+        margin-left: 50vw;
+        @media only screen and (max-width:414px){
+          margin: 0px auto;
+          display: none;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+    }
+    .scrollDown {
+        position: relative;
+        font-family: $fontTwo;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-style: italic;
+        letter-spacing: 5px;
+        font-size: 12px;
+        text-shadow: 2px 1px 1px black;
+        align-self:center;
+    }
+    
+  .scrollDown span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin-left: -12px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb07 2s infinite;
+    animation: sdb07 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+    margin-top:12px;
+    box-shadow: 0px 2px 0px rgba(0,0,0,.4);
+  }
+  .scrollDown span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  .scrollDown span:nth-of-type(2) {
+    top: 12px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+  }
+  .scrollDown span:nth-of-type(3) {
+    top: 24px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+  }
+  .scroll-up-animation {
+   display: flex;
+   justify-content: center;
+}
+.scrollUp {
+    position: relative;
+    font-family: $fontTwo;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-size: 12px;
+    text-shadow: 2px 1px 1px black;
+    &:hover {
+      cursor: pointer;
+    }
+
+}
+
+.scrollUp span {
+position: absolute;
+top: 10px;
+left: 50%;
+width: 16px;
+height: 16px;
+margin-left: -12px;
+border-width: 2px 2px 0 0;
+border-style:solid;
+border-color:rgba(0,0,0,0.4);
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+-webkit-animation: sdb07 2s infinite;
+animation: sdb07 2s infinite;
+opacity: 0;
+box-sizing: border-box;
+margin-top:12px;
+}
+.scrollUp span:nth-of-type(1) {
+-webkit-animation-delay: 0s;
+animation-delay: 0s;
+}
+.scrollUp span:nth-of-type(2) {
+top: 22px;
+-webkit-animation-delay: .15s;
+animation-delay: .15s;
+}
+.scrollUp span:nth-of-type(3) {
+top: 34px;
+-webkit-animation-delay: .3s;
+animation-delay: .3s;
+}
+  @-webkit-keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

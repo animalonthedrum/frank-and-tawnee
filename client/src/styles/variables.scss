@@ -1,0 +1,17 @@
+//COLORS
+$lt-g:#E7EAEC;
+$burg: #401C1C;
+$gold:#B2962F;
+
+//FONT
+@import url("https://use.typekit.net/bbn8tkt.css");
+$fontOne:"brandon-grotesque", sans-serif;
+$fontTwo:'adobe-garamond-pro', serif;
+
+html,body{
+    font-family: $fontOne;
+}
+h1 {
+    font-family: $fontTwo;
+}
+
