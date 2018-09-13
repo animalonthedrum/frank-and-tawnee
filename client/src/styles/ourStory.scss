@@ -51,6 +51,9 @@
             font-size: 73px;
             font-family: $fontTwo;
             font-weight: 700;
+            @media only screen and (max-width:414px) {
+                font-size: 50px;
+            }
         }
         .textBlock {
             padding:20px 40px;

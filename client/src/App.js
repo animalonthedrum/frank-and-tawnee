@@ -23,9 +23,6 @@ class App extends Component {
             <Route path="/work" component={Work} /> */}
             <Route path="/rsvp" component={RSVP} />
             <Route component={Error} />
-            
-            
-            <Route component={Error} />
           </Switch>
         </div>
       </BrowserRouter>
