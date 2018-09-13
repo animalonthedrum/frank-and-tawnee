@@ -54,13 +54,13 @@ export class HisHers extends Component {
                 </div>
                 <div className="grid">
                 <img src={require("../images/courtneyMiddendorf.jpg")} alt="Courtney Middendorf" className="bmaids"/>
-                <h4>Courtney Middendorf</h4>
+                <h4>Courtney Middendorff</h4>
                 <p>Bridesmaid</p>
                 </div>
                 <div className="grid">
              
                 <img src={require("../images/katyReiling.jpg")} alt="Katy Reiling" className="bmaids"/>
-                <h4>Katy Reiling</h4>
+                <h4>Katie Reiling</h4>
                 <p>Bridesmaid</p>
                 </div>
             </div>
@@ -81,7 +81,7 @@ export class HisHers extends Component {
                 </div>
                 <div className="grid">
                 <img src={require("../images/kristaClaudia.jpg")} alt="Krista and Claudia Simmerf" className="bmaids"/>
-                <h4>Krista & Claudia Simmerf</h4>
+                <h4>Krista & Claudia Simmer</h4>
                 <p>Personal Attendants</p>
                 </div>
                 <div className="grid">

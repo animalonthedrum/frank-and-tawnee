@@ -17,7 +17,7 @@ export class DetailsTravel extends Component {
           <p>The ceremony will begin at 7pm with a cocktail/appetizer reception to follow. If you’d like to grab a bite before the party starts, here are a few great spots in the area:</p>
           <p className="restr"><a target='_blank' rel="noopener noreferrer" href="http://www.thebdp.com/locations/">Blue Door Pub St. Paul, </a>
 
-         <a target='_blank' rel="noopener noreferrer" href="http://www.thebdp.com/locations/">Augustine’s</a></p>
+         <a target='_blank' rel="noopener noreferrer" href="http://augustinesmn.com/location/">Augustine’s</a></p>
 
           <p className="restr"><a target='_blank' rel="noopener noreferrer" href="http://www.caffebiaggio.com/map">Café Biaggio, </a>
 
@@ -36,7 +36,7 @@ export class DetailsTravel extends Component {
           <p>Cocktails + Appetizers</p>
           <p className="time">8:30pm</p>
           <p>Live Music + Dance</p>
-          <p className="time">12:00pm</p>
+          <p className="time">12:00am</p>
           <p>Last Call</p>
           <EUCR2/>
         {/* <img src={require("../images/eucRight2.png")} alt="Leaf" className="euc-right2"/>      */}
