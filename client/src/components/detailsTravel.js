@@ -60,7 +60,7 @@ export class DetailsTravel extends Component {
               <a className='number' href="tel:1-612-259-8797">(612) 259-8797</a>
               
               </div>
-              <a target='_blank' rel="noopener noreferrer" href='http://group.hamptoninn.com/Rebhuhn-Denney-Wedding' className='link'>Book Now</a>
+              <a target='_blank' rel="noopener noreferrer" href='https://group.hamptoninn.com/Rebhuhn-Denney-Wedding' className='link'>Book Now</a>
 
             </div>
             <div className="rightCard">
@@ -76,7 +76,7 @@ export class DetailsTravel extends Component {
               <br/>Minneapolis, MN 55414</p>
               <a className='number' href="tel:1-612-504-3000">(612) 504-3000</a>
             </div>
-           <a target='_blank' rel="noopener noreferrer" href='http://doubletree.hilton.com/en/dt/groups/personalized/M/MSPUNDT-RD5-20181130/index.jhtml' className='link'>Book Now</a>
+           <a target='_blank' rel="noopener noreferrer" href='https://doubletree.hilton.com/en/dt/groups/personalized/M/MSPUNDT-RD5-20181130/index.jhtml' className='link'>Book Now</a>
                
             </div>
           </div>
