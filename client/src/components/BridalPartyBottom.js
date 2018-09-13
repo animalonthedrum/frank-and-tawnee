@@ -14,7 +14,8 @@ export default class BridalPartyBottom extends Component {
         offsetXMin={-40}
         slowerScrollRate={false}
     >
-     <h3>Personal Attendants</h3>
+    <div><h3>Personal Attendants</h3></div>
+    
     </Parallax>
     )
   }

@@ -14,7 +14,7 @@ export default class BridalPartyRight extends Component {
         offsetXMin={-100}
         
     >
-     <h3>Bridesmaids</h3>
+     <div><h3>Bridesmaids</h3></div>
     </Parallax>
     )
   }

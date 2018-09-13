@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-scroll-parallax';
-// import '../images/EucalyptusLeft.png'
+import Image from './Image';
 
 
 export default class EUCL extends Component {
@@ -14,7 +14,8 @@ export default class EUCL extends Component {
         // offsetXMax={50}
         // offsetXMin={0}
     >
-    <img src={require("../images/EucalyptusLeft.png")} alt="Eucalyptus" className="eucLImg"/>
+    {/* <img src={require("../images/EucalyptusLeft.png")} alt="Eucalyptus" className="eucLImg"/> */}
+    <Image src={require("../images/EucalyptusLeft.png")} alt="Eucalyptus" className="eucLImg"/>
 
 
     </Parallax>

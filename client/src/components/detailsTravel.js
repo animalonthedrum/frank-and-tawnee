@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import EUCL from './EUCL';
 import EUCR2 from './EUCR-2';
-// import "../images/EucalyptusLeft.png";
-// import "../images/eucRight2.png";
 
 export class DetailsTravel extends Component {
   render() {

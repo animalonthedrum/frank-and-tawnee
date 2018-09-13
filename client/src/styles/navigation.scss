@@ -6,7 +6,7 @@
   width: 100%;
   background: transparent;
   height: 56px;
-  z-index: 1000000;
+  z-index: 10000;
 
 }
 
@@ -172,11 +172,11 @@
   border: none;
   position: relative;
   top: 3vh;
+  z-index: 20000;
   .x {
     height:6px;
     width:40px;
     // border-radius: 32px / 16px;
-    background:green;
     transform: rotate(135deg);
 
   }
@@ -184,7 +184,6 @@
     height:6px;
     width:40px;
     // border-radius: 16px / 32px;
-    background:green;
     transform: rotate(-135deg);
     
   }
@@ -197,8 +196,9 @@
   top: 10px;
   width: 32px;
   height: 32px;
-  opacity: 0.3;
+  opacity: #eee;
   border: none;
+  z-index: 500000;
 }
 .close:hover {
   opacity: 1;

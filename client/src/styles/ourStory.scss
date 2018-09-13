@@ -59,6 +59,9 @@
                 font-weight: 400;
                 margin-bottom: 36px;
             }
+            @media only screen and (max-width:414px) {
+                padding:20px 30px;
+            }
         }
     }
 }

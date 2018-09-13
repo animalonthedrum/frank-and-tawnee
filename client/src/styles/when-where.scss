@@ -38,7 +38,7 @@
         @media only screen and (max-width:414px) {
             width: 100%;
             justify-content: center;
-            margin-bottom: 50px;
+            margin-bottom: 0px;
             background-image: none;
         }
  
@@ -179,7 +179,7 @@
         font-style: italic;
         font-weight: 500;
         font-size: 32px;
-        padding: 40px 0 80px 0;
+        padding: 40px 0 40px 0;
         display: flex;
         justify-content: center;
         @media only screen and (min-width:768px){

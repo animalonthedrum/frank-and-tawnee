@@ -14,7 +14,7 @@ export default class BridalParty extends Component {
         offsetXMin={-130}
         slowerScrollRate={false}
     >
-     <h3>Groomsmen</h3>
+     <div><h3>Groomsmen</h3></div>
     </Parallax>
     )
   }

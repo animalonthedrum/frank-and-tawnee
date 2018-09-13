@@ -3,6 +3,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 
 
+
 export default class OSPRX extends Component {
   render() {
     return (
@@ -14,7 +15,7 @@ export default class OSPRX extends Component {
         // offsetXMax={50}
         // offsetXMin={0}
     >
-      <h1 className="title os-title">Our Story</h1>
+      <div><h1 className="title os-title">Our Story</h1></div>
 
 
     </Parallax>
