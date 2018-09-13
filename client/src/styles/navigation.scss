@@ -60,13 +60,13 @@
   text-decoration: none;
   transition: all .2s ease-in-out;
   &:hover {
-    color: $burg;
+    color: $gold;
   }
 }
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: $burg;
+  color: $gold;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -230,6 +230,7 @@
   background-color: $gold;
   display: block;
   margin-bottom: 10px;
+  transition: all .2s ease-in-out;
   &.active {
     background-color: #8a7527;
     width: 20px;

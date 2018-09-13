@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Nav from './Nav';
-import MobileNav from './/MobileNav';
+import MobileNav from './MobileNav';
 import NavClose from './NavClose';
 // import More from './More';
 
