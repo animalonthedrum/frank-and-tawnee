@@ -47,14 +47,15 @@
             object-fit: cover;
             max-width: 100%;
             }  
-            &:after {
-                content:'';
-                height: 100%;
-                width: 100%;
-                background-color: rgba(0,0,0,.4);
-                position: absolute;
-                display: block;
-            }
+
+        }
+        .hero-container:after {
+            content:'';
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,.4);
+            position: absolute;
+            display: block;
         }
 
     
