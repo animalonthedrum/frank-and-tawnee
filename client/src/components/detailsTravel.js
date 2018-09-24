@@ -60,7 +60,7 @@ export class DetailsTravel extends Component {
               <a className='number' href="tel:1-612-259-8797">(612) 259-8797</a>
               
               </div>
-              <a target='_blank' rel="noopener noreferrer" href='https://secure3.hilton.com/en_US/hp/reservation/book.htm?execution=e1s1' className='link'>Book Now</a>
+              <a target='_blank' rel="noopener noreferrer" href='http://group.hamptoninn.com/Rebhuhn-Denney-Wedding' className='link'>Book Now</a>
 
             </div>
             <div className="rightCard">

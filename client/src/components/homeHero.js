@@ -8,7 +8,7 @@ export class HomeHero extends Component {
     return (
     <Fragment>
     <div className="hero-container ">
-    <video className='videoTag' playsinline autoPlay loop muted>
+    <video className='videoTag' playsInline autoPlay loop muted>
     <source src={heroVid} type='video/mp4' />
 </video>
      <div className="homeTitle">
