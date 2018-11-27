@@ -28,7 +28,7 @@ export class WhenWhere extends Component {
           <a target='_blank' rel="noopener noreferrer" href="https://www.paikkamn.com/">PAIKKA</a>
           <p>AT SEVEN O’CLOCK</p>
           <p> IN THE EVENING</p>
-          <a  className="paikkaLoc" target='_blank' rel="noopener noreferrer" href="https://www.google.com/maps/place/550+Vandalia+St+%23165,+St+Paul,+MN+55114/@44.9581156,-93.1932805,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32cb3aa2f21df:0xfaf901e27503eed5!8m2!3d44.9581156!4d-93.1910918">
+          <a  className="paikkaLoc" target='_blank' rel="noopener noreferrer" href="https://www.google.com/maps/place/PAIKKA/@44.9573741,-93.1933717,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32cb31073d435:0xe26e8aa8ee3c8cdf!8m2!3d44.9573741!4d-93.191183">
           550 VANDALIA ST. #165 <br/>
           SAINT PAUL, MINNESOTA
           </a>

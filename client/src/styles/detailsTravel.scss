@@ -57,7 +57,7 @@
         text-align: center;
         color: white;
         justify-content: space-around;
-        margin-bottom: 300px;
+        margin-bottom: 100px;
         @media only screen and (max-width:414px){
             margin-bottom: 50px;
             width: 100%;
@@ -250,4 +250,54 @@ a.here {
     &:hover {
         color: $burg;
     }
+}
+.directions-container {
+    .directions {
+        width: 100%;
+        font-family: $fontTwo;
+        font-size: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   
+        h2 {
+            font-size: 72px;
+            @media only screen and (max-width: 375px){
+            font-size: 36px;
+            }
+        }
+        p {
+            font-family: $fontOne;
+            font-size: 24px;
+            line-height: 36px;
+            padding: 0 12%;
+            text-align: center;
+        }
+    }
+    .direction-images {
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        img {
+            width: 50%;
+            height:50%;
+            margin:50px 0;
+        }
+    }
+  
+}
+.left-prx-dir {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.directions-prx {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+
 }
